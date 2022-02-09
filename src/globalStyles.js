@@ -1,8 +1,8 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  *{
-    box-sizing: border-box;
+  * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
@@ -15,7 +15,6 @@ export const Container = styled.div`
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 50px;
-	border: 2px solid red;
 
 	@media screen and (max-width: 960px) {
 		padding: 0 30px;
@@ -54,7 +53,7 @@ export const TextWrapper = styled.span`
 export const Section = styled.section`
 	padding: ${({ padding }) => (padding ? padding : '140px 0')};
 	margin: ${({ margin }) => (margin ? margin : '')};
-	background: ${({ inverse }) => (inverse ? 'white' : '#071c2f')};
+	background: ${({ inverse }) => (inverse ? '#0f9b0f' : 'white')};
 	position: ${({ position }) => (position ? position : '')};
 	width: ${({ width }) => (width ? width : 'auto')};
 	min-width: ${({ minWidth }) => (minWidth ? minWidth : 'auto')};
