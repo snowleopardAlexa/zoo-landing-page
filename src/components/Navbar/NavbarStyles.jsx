@@ -41,7 +41,7 @@ export const NavLogo = styled(Link)`
 
 export const NavIcon = styled.img`
 	margin-right: 1rem;
-	width: 3rem;
+	width: 5rem;
 `;
 
 export const MobileIcon = styled.div`
@@ -105,6 +105,7 @@ export const NavItem = styled.li`
 export const NavLinks = styled.span`
     font-family: 'Questrial', sans-serif;
 	color: #fff;
+	font-size: 1.5rem;
 	display: flex;
 	align-items: center;
 	text-decoration: none;
@@ -112,7 +113,7 @@ export const NavLinks = styled.span`
 	height: 100%;
 
 	&:hover {
-		color: #c8c9d8;
+		color: yellow;
 		transition: all 0.3s ease;
 	}
 
@@ -123,7 +124,7 @@ export const NavLinks = styled.span`
 		display: table;
 
 		&:hover {
-			color: #4b59f7;
+			color: yellow;
 			transition: all 0.3s ease;
 		}
 	}
