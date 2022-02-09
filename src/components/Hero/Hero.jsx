@@ -5,7 +5,7 @@ import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './H
 const Hero = () => {
 	return (
 		<HeroSection>
-			<HeroVideo src="./assets/hero.mp4" autoPlay muted />
+			<HeroVideo src="./assets/tiger.mp4" autoPlay muted />
 			<Container>
 				<MainHeading>The most exhiliraiting zoo in Hawaii</MainHeading>
 				<HeroText>
