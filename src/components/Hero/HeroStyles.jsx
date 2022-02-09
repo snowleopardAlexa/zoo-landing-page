@@ -21,7 +21,7 @@ z-index: -1;
 
 export const HeroText = styled.p `
  margin-bottom: 35px;
- font-size: clamp(0.9rem, 1.5vh, 1.3rem);
+ font-size: clamp(2rem, 1.5vh, 1.3rem);
  line-height: 24px;
  text-align: center;
  letter-spacing: 2px;
