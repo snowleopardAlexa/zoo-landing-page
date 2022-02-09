@@ -49,13 +49,13 @@ const Navbar = () => {
                  <NavIcon src="./assets/logo.png" alt="logo" />
                  Panaewa Zoo
              </NavLogo>
-             <MobileIcon>
+             <MobileIcon onClick={handleClickMobileMenu}>
                 {show ? <FaTimes /> : <CgMenuRight />}
              </MobileIcon>
              <NavMenu>
                  {data.map((el, index) => (
-                   <NavItem>
-                     <NavLinks>{el.text}</NavLinks>
+                   <NavItem key={index}>
+                     <NavLinks onClick={() => closeMobileMenu(el.to, el.id)}>{el.text}</NavLinks>
                   </NavItem>
                  ))}
              </NavMenu>
