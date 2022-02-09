@@ -16,6 +16,32 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { data } from '../../data/NavbarData';
 
 const Navbar = () => {
+
+    const [show, setShow] = useState(false);
+
+    let navigate = useNavigate();
+    let location = useLocation();
+
+    const handleClickMobileMenu = () => {
+        setShow(!show);
+    };
+
+    const scrollTo = (id) => {
+        const element = document.getElementById(id);
+
+        element.scrollIntoView({
+            behavior: 'smooth',
+        });
+    };
+
+    const closeMobileMenu = (to, id) => {
+        if (id && location.path === '/') {
+            scrollTo(id);
+        }
+        navigate.push(to);
+            setShow(false);
+    }
+
     return (
      <Nav>
          <NavbarContainer>
