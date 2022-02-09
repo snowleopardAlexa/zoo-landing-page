@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaRProject, FaTimes } from 'react-icons/fa';
 import { CgMenuRight } from 'react-icons/cg';
-import { IconContext } from 'react-icons';
+// import { IconContext } from 'react-icons';
 import {
 	Nav,
 	NavbarContainer,
@@ -11,7 +11,7 @@ import {
 	NavMenu,
 	NavLinks,
 	NavItem,
-} from './NavbarStyles.js';
+} from './NavbarStyles';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { data } from '../../data/NavbarData';
 
@@ -63,3 +63,5 @@ const Navbar = () => {
      </Nav>
     );
 }
+
+export default Navbar;
