@@ -24,12 +24,14 @@ const Navbar = () => {
                  Panaewa Zoo
              </NavLogo>
              <MobileIcon>
-
+                {show ? <FaTimes /> : <CgMenuRight />}
              </MobileIcon>
              <NavMenu>
-                 <NavItem>
-                     <NavLinks></NavLinks>
-                 </NavItem>
+                 {data.map((el, index) => (
+                   <NavItem>
+                     <NavLinks>{el.text}</NavLinks>
+                  </NavItem>
+                 ))}
              </NavMenu>
          </NavbarContainer>
      </Nav>
