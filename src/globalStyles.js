@@ -15,6 +15,7 @@ export const Container = styled.div`
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 50px;
+	border: 2px solid red;
 
 	@media screen and (max-width: 960px) {
 		padding: 0 30px;
@@ -112,7 +113,7 @@ export const Button = styled.button `
 	cursor: pointer;
 	overflow: hidden;
 	position: relative;
-    font-family: 'Mali', cursive;
+	font-family: 'Questrial', sans-serif;
 
 	&:before {
 		background: #2F7336;  /* fallback for old browsers */

@@ -52,8 +52,7 @@ border-radius: 0%;
 }
 
 &:hover:before {
-    height: 0%;
-    
+    height: 0%; 
 }
 
 &:hover {
