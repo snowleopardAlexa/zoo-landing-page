@@ -112,7 +112,7 @@ export const Button = styled.button `
 	cursor: pointer;
 	overflow: hidden;
 	position: relative;
-    font-family: 'Mali', cursive;
+	font-family: 'Questrial', sans-serif;
 
 	&:before {
 		background: #2F7336;  /* fallback for old browsers */
