@@ -11,7 +11,7 @@ import {
 } from './FeaturesStyles';
 import { featuresData } from '../../data/FeaturesData';
 
-const Features = () => {
+const Features = ({ inverse }) => {
 
     const initial = {
         y: 40,
@@ -26,7 +26,7 @@ const Features = () => {
     return (
       <Section>
           <Container>
-              <FeatureTextWrapper>
+              <FeatureTextWrapper inverse={inverse}>
                   <FeatureTitle>
                      What We Offer
                   </FeatureTitle>
