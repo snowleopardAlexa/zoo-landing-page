@@ -12,6 +12,17 @@ import {
 import { featuresData } from '../../data/FeaturesData';
 
 const Features = () => {
+
+    const initial = {
+        y: 40,
+        opacity: 0,
+    }
+
+    const animate = {
+        y: 0,
+        opacity: 1,
+    }
+
     return (
       <Section>
           <Container>
