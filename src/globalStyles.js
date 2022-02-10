@@ -53,7 +53,7 @@ export const TextWrapper = styled.span`
 export const Section = styled.section`
 	padding: ${({ padding }) => (padding ? padding : '140px 0')};
 	margin: ${({ margin }) => (margin ? margin : '')};
-	background: ${({ inverse }) => (inverse ? '#0f9b0f' : 'white')};
+	background: ${({ inverse }) => (inverse ? '#e65c00' : 'white')};
 	position: ${({ position }) => (position ? position : '')};
 	width: ${({ width }) => (width ? width : 'auto')};
 	min-width: ${({ minWidth }) => (minWidth ? minWidth : 'auto')};
@@ -115,9 +115,9 @@ export const Button = styled.button `
 	font-family: 'Questrial', sans-serif;
 
 	&:before {
-		background: #2F7336;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #AA3A38, #2F7336);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #AA3A38, #2F7336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	    background: #e65c00;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		content: '';
 		position: absolute;
 		top: 50%;

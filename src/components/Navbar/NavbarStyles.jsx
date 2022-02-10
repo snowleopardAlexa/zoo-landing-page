@@ -121,7 +121,7 @@ export const NavLinks = styled.span`
   height: 100%;
 
   &:hover {
-    color: yellow;
+    color: #e65c00;
     transition: all 0.3s ease;
   }
 
@@ -132,7 +132,7 @@ export const NavLinks = styled.span`
     display: table;
 
     &:hover {
-      color: yellow;
+      color: #e65c00;
       transition: all 0.3s ease;
     }
   }

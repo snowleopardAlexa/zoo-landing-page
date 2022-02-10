@@ -39,7 +39,7 @@ export const featuresData = [
 	{
 		name: 'Observe Jellyfish',
 		description:
-			'Colorful elly fishes will inspire you!',
+			'Colorful jelly fishes will inspire you!',
 		icon: iconStyle(GiJellyfish),
 		imgClass: 'six',
 	},
