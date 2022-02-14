@@ -3,19 +3,32 @@ import { Container } from "../../globalStyles";
 import { Link } from "react-router-dom";
 
 export const Nav = styled.nav`
-  background: transparent;
-  margin-bottom: -80px;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
   position: absolute;
   top: 0;
   z-index: 50;
   width: 100%;
-
   transition: background-color 0.3s ease-in;
+  position: sticky;
+`;
+
+export const NavTitle = styled.div `
+   color: white;
+   display: flex;
+   align-items: center;
+`;
+
+export const NavName = styled.div `
+   padding: 3px;
+   font-size: 1.5rem;
+   font-weight: 600;
+   font-family: 'Mali', cursive;
 `;
 
 export const NavbarContainer = styled(Container)`
@@ -32,16 +45,14 @@ export const NavLogo = styled(Link)`
   text-decoration: none;
   font-family: "Mali", cursive;
   font-weight: 600;
-  font-size: 1.5rem;
   display: flex;
   align-items: center;
-
   z-index: 50;
 `;
 
 export const NavIcon = styled.img`
-  margin-right: 1rem;
-  width: 5rem;
+  margin-right: 0.3rem;
+  width: 3.5rem;
 `;
 
 export const MobileIcon = styled.div`

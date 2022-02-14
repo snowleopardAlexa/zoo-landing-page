@@ -32,7 +32,7 @@ export const heroThree = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Highly reputed Zoo',
+		text: 'Family and Friends Zoo',
 	},
 	headline: 'Why should you visit us? ',
 	description:

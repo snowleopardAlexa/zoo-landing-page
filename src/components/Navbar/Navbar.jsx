@@ -11,6 +11,8 @@ import {
 	NavMenu,
 	NavLinks,
 	NavItem,
+    NavTitle, 
+    NavName,
 } from './NavbarStyles';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { data } from '../../data/NavbarData';
@@ -48,8 +50,11 @@ const Navbar = () => {
          <NavbarContainer>
              <NavLogo to="/">
                  <NavIcon src="./assets/logo.png" alt="logo" />
-                 Panaewa Zoo
              </NavLogo>
+             <NavTitle>
+                 <NavName>Panaewa</NavName>
+                 <NavName>Zoo</NavName>
+             </NavTitle>
              <MobileIcon onClick={handleClickMobileMenu}>
                 {show ? <FaTimes /> : <CgMenuRight />}
              </MobileIcon>
