@@ -13,7 +13,27 @@ import {
 
 const Carousel = () => {
   return (
-    <div>Carousel</div>
+    <Section>
+        <Row>
+            <Heading></Heading>
+            <ButtonContainer>
+
+            </ButtonContainer>
+        </Row>
+        <ReviewSlider>
+            <ImageWrapper>
+                <CarouselImage>
+                    <TextWrapper>
+
+                    </TextWrapper>
+                    <TextWrapper>
+
+                    </TextWrapper>
+                </CarouselImage>
+                <CardButton>Read more</CardButton>
+            </ImageWrapper>
+        </ReviewSlider>
+    </Section>
   )
 }
 
